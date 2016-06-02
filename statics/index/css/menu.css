@@ -1,0 +1,31 @@
+.menu { padding-right: 1px; }
+.menu li { float: left; text-align: center; line-height: 24px; padding: 0; position:relative;}
+.menu li a { padding: 2px 15px; color: #5c5c5c; font-weight: bold; border-left: none; display: inline-block; font-size: 14px; }
+.menu li a i {background-image: url(../img/sub_menu_arrow.png); background-repeat: no-repeat;width: 13px; height: 14px; *height: 18px; background-position: 0 3px; display:inline-block;}
+.menu li:hover{}
+/*.menu li a.active{color: #2f98d7;}*/
+/*.menu li a.active{color: white;}*/
+/*链接字体样色：白色*/
+.menu li a.active{color: white;}
+.menu li a.active i{background-position: -26px 3px;}
+.menu li:hover a i{background-position: -12px 3px;}
+/*链接移动其上时样式*/
+/*.menu li:hover a._hover{ background-color: #5599bb; color: #f8f8f8; border: 0 none; -webkit-appearance: none; border-radius: 3px;}*/
+.menu li:hover a.subm{ border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+/*链接移动其上时，显示块状*/
+.menu li:hover .submenu{display: block;}
+
+.submenu { position: absolute; top: 28px; left: 0px; line-height: 30px; z-index: 99; display: none; width: 85px; border-bottom-left-radius:3px; border-bottom-right-radius:3px;}
+.submenu a:hover { color: #999;}
+.submenu dt { display: inline;}
+.submenu dd { background: #f8f8f8 url(../img/menu.gif) no-repeat bottom; border-bottom: 1px solid #fff;border-left:1px solid #eee; border-right: 1px solid #eee;}
+.submenu dd a { text-align: center; padding: 0; border-right: none; font-weight: normal; width: auto; font-size:12px; display:inline-block; width:85px;}
+.submenu dd.lastItem { background-image: none; border-bottom:none; border-bottom-left-radius:3px; border-bottom-right-radius:3px; border-bottom:1px solid #eee;}
+.submenu dd.lastItem a { }
+
+
+.header .nav-bar,.header .nav-bar map,.header .menu,.header .menu li.line,.header .subnav{background: url(../images/v9/nav.png) no-repeat}
+.header .menu{height:33px;background-position: left -65px;background-repeat: repeat-x; margin:0 5px; padding-left:5px}
+.header .menu li{float:left; line-height:33px; padding:0 5px; position:relative; }
+.header .menu li.line{background-position: 2px -215px; padding:0; width:10px; text-indent:-10000px}
+

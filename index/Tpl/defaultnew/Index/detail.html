@@ -1,0 +1,45 @@
+<include file="Public:header" />
+
+<!-- 列表和详情样式 -->
+
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/bootstrap.min.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/init.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/hf.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/news.css" />
+<script type="text/javascript" src="__ROOT__/statics/index/youhua/jquery-1.7.2.js" ></script>
+
+<div class="banner">
+        <img src="__ROOT__/statics/index/youhua/news_02.png" />
+      </div>
+        <div class="main">
+          <div class="container">
+               <div class="clearfix newsmain">
+                
+                <include file="Public:left" />
+                
+                  <div class="col-md-9 col-sm-12 col-xs-12">
+                    <div class="news_rt_t">
+                      <span> 当前位置： ></span>
+                       <a href="__ROOT__/">首页</a>
+                      <span>></span>
+                      <a href="{:U('Index/cate', "cid=$cid")}">{$cateName}</a>
+                      <span>></span>
+                      <a href="#">{$detail.title|subtext=12}</a>
+                    </div>
+                      <div class="news_rt_b">
+                        <div class="news_rt_b_tl">{$detail.title}</div>
+                        <div class="news_rt_b_time">
+                          作者： <if condition=" !empty($detail['user_name']) ">{$detail.user_name}<else />佚名</if>  &nbsp;&nbsp;&nbsp;&nbsp;{$detail.add_time}
+                        </div>
+                        <div class="news_rt_b_con">
+                        {$detail.info}
+                        </div>
+                      </div>
+                  </div>
+               </div>
+              
+            <!-- 底部导航     -->
+<include file="Public:link" />
+
+<!-- 底部版权 -->
+<include file="Public:footer" />

@@ -1,0 +1,70 @@
+﻿.banner{width: 100%;}
+.banner img{max-height: 300px;width: 100%;}
+.down_t{padding: 18px 0px;border-bottom: 1px solid #6c7373;}
+.down_t_lf{background: #ff0101;height: 31px;color: #fff;padding-left: 25px;padding-top: 5.5px;}
+.down_t_lf span{display: block;padding:0px 10px;border-left:4px solid #fff ;font-size: 15px;}
+.down_rt{line-height: 31px;color: #221815;font-size: 14px;}
+.down_rt a{color: #221815;}
+.down_c ul li{padding: 25px 0px 15px 0px;border-bottom: 1px dashed #96a0a0;}
+.down_c_one img{width: 100%;}
+.down_c_one{margin-bottom: 20px;}
+.down_c_two_btn a{display: block;padding: 10px 15px;color: #fff;font-size: 14px;text-align: center;border-radius: 5px;height: 60px;}
+.wdw{background: #009be2;}
+.wdw  em{display: inline-block;background: url(../Images/down-03.png) no-repeat;width: 30px;height: 30px;margin-right: 10px;margin-top: 5px;}
+.down_c_li_t{font-size: 20px;color: #080303;margin-bottom: 25px;}
+.down_c_two_btn .shouc{font-size: 16px;background: #10bb37;line-height: 40px;}
+.down_c_two_btn .shouc:hover{text-decoration: none;}
+.down_c_con{font-size: 14px;color: #030103;margin-top: 10px;line-height: 25px;font-family: "heiti";}
+.down_c_con p{font-family: "heiti";}
+.down_c_two{margin-bottom: 20px;}
+.down_c_three{margin-bottom: 20px;font-family: "heiti";}
+.down_c_three_t{font-size: 16px;}
+.down_c_three p{background: url(../Images/ling.png) no-repeat left 3px;padding-left: 15px;font-size: 13px;line-height: 23px;color: #030103;}
+.down_c{margin-bottom: 20px;}
+.andro em{background: url(../Images/phone_04.png) no-repeat;width: 30px;height: 34px;margin-top: 3px;margin-right: 5px;}
+.andro{background: #009be2;margin-bottom: 8px;}
+.iphone{background: #10bb37;}
+.iphone em{background: url(../Images/phone_05.png) no-repeat;width: 30px;height: 34px;margin-top: 3px;margin-right: 5px;}
+.andro_text{font-family: "heiti";font-size: 14px;}
+.login_app em{background: url(../Images/phone_07.png) no-repeat;width: 110px;height: 110px;margin-right: 15px;}
+.login_app span{color: #121211;margin-top: 20.5px;display: block;width: 50%;}
+.anzhuang em{background: url(../Images/phone_06.png) no-repeat;width: 83px;height: 110px;margin-right: 15px;}
+.anzhuang span{line-height: 110px;color: #121211;font-size: 18px;}
+@media (min-width: 1000px) {
+	.down_rt{float: right;}
+	.down_c_one img{width: 90%;}
+    
+}
+/*开户*/
+.kaihu{background: #dee2e2;padding: 30px 0px;margin: 18px 0px;}
+.zong{background: url(../Images/big_03.png) repeat-x;height: 72px;margin: 0px auto;border: 1px solid #869e55;border-radius: 10px;text-align: center;display: block;}
+.zong:hover{text-decoration: none;color: #fff;}
+.zong span{font-weight: bold;color: #fff;line-height: 72px;}
+.zong em{display: inline-block;background: url(../Images/duihao.png) no-repeat;position: relative;}
+.fen{margin: 0px auto;margin-top: 18px;}
+.fen_div{background: url(../Images/small.png) repeat-x;height: 48px;width: 48%;border: 1px solid #869e55;border-radius: 10px;text-align: center;color: #fff;font-weight: bold;line-height: 48px;display: block;}
+.fen_div:hover{text-decoration: none;color: #fff;}
+.tishi{border: 1px solid #b8bfbf;border-radius: 10px;background: #ffffff;padding: 15px;margin: 30px auto;color: #ff0101;}
+.tishi a{display: block;width: 100px;height: 28px;border: 1px solid #bb9393;border-radius: 50px;background: #eb4242;color: #fff;font-size: 16px;text-align: center;line-height: 28px;}
+.tishi a:hover{text-decoration: none;}
+.tishi p{line-height: 25px;margin-top: 5px;}
+@media (min-width: 992px) {
+	.zong{width: 33.3%;}
+    .zong span{font-size: 28px;}
+    .zong em{width: 47px;height: 45px;top: 13.5px;}
+    .fen{width: 45%;}
+    .fen_div{font-size: 18px;}
+    .tishi{width: 50%;}
+    .tishi_t{font-size: 24px;}
+    .tishi p{font-size: 14px;}
+}
+@media (max-width: 991px) {
+	.zong{width: 70%;}
+	.zong span{font-size: 18px;}
+    .zong em{width: 30px;height: 29px;background-size: 30px 29px;vertical-align: top;top: 21.5px;}
+   .fen{width: 90%;}
+   .fen_div{font-size: 12px;}
+   .tishi{width: 95%;}
+   .tishi_t{font-size: 18px;}
+   .tishi p{font-size: 12px;}
+}

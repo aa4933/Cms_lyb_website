@@ -1,0 +1,1781 @@
+[ 2015-12-24T11:37:13+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.030002s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.011000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.022002s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.046003s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.040002s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.033002s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.018001s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.035002s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.007001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:13+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=verify&rand=1450928233
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.032002s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.027002s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+
+[ 2015-12-24T11:37:29+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.010000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.001001s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.010001s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.011000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:29+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=verify&rand=1450928249
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.013001s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.012001s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.010001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.002001s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+
+[ 2015-12-24T11:37:42+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=login
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.001001s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.005000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:42+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=verify&rand=1450928262
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 114 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 36 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 40 行.
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.023002s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.012000s ]
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 50 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1   [ RunTime:0.002001s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `role_id` FROM `cms_admin` WHERE ( id= ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.013000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id= )  [ RunTime:0.001000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT `node_id` FROM `cms_access` WHERE ( role_id= ) 
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+NOTIC: [8] Undefined index: admin_info D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 64 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ) ORDER BY sort DESC' at line 1
+ [ SQL语句 ] : SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND id in () ) ORDER BY sort DESC 
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+ERR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY sort ASC' at line 1
+ [ SQL语句 ] : SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id =  ) ORDER BY sort ASC 
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+
+[ 2015-12-24T11:37:52+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.016001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.022001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.010001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.062003s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.025002s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant VERSION - assumed 'VERSION' D:\WWW\jieqiang_lyb\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 76 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:37:53+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.010000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.014001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.021001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.011001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.058004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:53+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.035002s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.024001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.020001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.005000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=9 ) ORDER BY sort DESC  [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:37:56+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.012001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.015001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:59+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=27
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.007001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=27 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:37:59+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=27
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.004000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=27 ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:38:01+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.002001s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.012000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=4 ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-24T11:38:01+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=8
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.019001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.013001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=8 ) ORDER BY sort DESC  [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:38:01+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.005001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.011000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=1 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:38:02+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Public&a=menu&tag=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.012000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.007001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.009000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=1 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lyb\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:38:04+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Setting&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.008000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008000s ]
+NOTIC: [2048] Declaration of SettingAction::sendMail() should be compatible with that of BaseAction::sendMail() D:\WWW\jieqiang_lyb\admin\Lib\Action\SettingAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.012000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.009001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.005000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+NOTIC: [8] Undefined index: type D:\WWW\jieqiang_lyb\admin\Lib\Action\SettingAction.class.php 第 16 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\8363ff16aa9d6b6e92344b611cbefaac.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\8363ff16aa9d6b6e92344b611cbefaac.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T11:38:05+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.010000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.004001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT cms_admin.*,cms_role.name as role_name FROM `cms_admin` LEFT JOIN cms_role ON cms_admin.role_id = cms_role.id  ORDER BY cms_admin.add_time DESC LIMIT 0,30   [ RunTime:0.092005s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\ffb2f417ce9997a6c7c48649fce696ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-24T11:38:05+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Role&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_role` LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_role` LIMIT 0,30   [ RunTime:0.003000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\d4338985604b83af8230480592c07e77.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:38:06+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Group&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.007001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_group` ORDER BY sort ASC  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 36 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined variable: page D:\WWW\jieqiang_lyb\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 71 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T11:38:07+08:00 ] 127.0.0.1 /jieqiang_lyb/admin.php?m=Node&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002001s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,9,8,1,27) ) ORDER BY sort ASC  [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lyb\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_node` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_node` WHERE ( 1=1 ) ORDER BY module asc,sort ASC LIMIT 0,15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cms_group`  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lyb\admin\Runtime\Cache\c1e580f05898240ff5e20a24b85d23fa.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.044002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:04+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018001s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.010001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant VERSION - assumed 'VERSION' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 76 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:05+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.012001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.018001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.017001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.016001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.003001s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.058004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:06+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.016001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.012001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.014001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=9 ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:07+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.009000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.005001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 44 行.
+NOTIC: [8] Use of undefined constant VERSION - assumed 'VERSION' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\3b07957a53ccb31105e96f96aaa794c8.php 第 76 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:08+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.014001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.075004s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.037002s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:08+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.012001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.057003s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.019001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.012001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.042002s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001001s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=9 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:10+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=27
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.005000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=27 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:11+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=SellerCate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.005001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_seller_cate` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_seller_cate` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_seller_cate` WHERE ( 1=1 ) ORDER BY sort asc LIMIT 0,20   [ RunTime:0.012001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 36 行.
+NOTIC: [8] Undefined variable: keyword D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 53 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:12+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=SellerList&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.035002s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.023002s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.011001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.003000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.017000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_seller_list` [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `cms_seller_cate` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_seller_list_cate` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cms_seller_cate` WHERE ( status=1 ) ORDER BY sort DESC  [ RunTime:0.001001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_seller_list` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_seller_list` WHERE ( 1=1 ) ORDER BY sort asc LIMIT 0,20   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: values D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 190 行.
+NOTIC: [8] Undefined index: output D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 191 行.
+NOTIC: [8] Undefined index: multiple D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 192 行.
+NOTIC: [8] Undefined index: id D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 193 行.
+NOTIC: [8] Undefined index: size D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 194 行.
+NOTIC: [8] Undefined index: first D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 195 行.
+NOTIC: [8] Undefined index: style D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 197 行.
+NOTIC: [8] Undefined index: dblclick D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 198 行.
+NOTIC: [8] Undefined index: change D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 199 行.
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 37 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 62 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 78 行.
+NOTIC: [8] Use of undefined constant cash_back_rate - assumed 'cash_back_rate' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 79 行.
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 80 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.046002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2015-12-24T12:02:13+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=SellerCate&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.005001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.005001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.013001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_seller_cate` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_seller_cate` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_seller_cate` WHERE ( 1=1 ) ORDER BY sort asc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 36 行.
+NOTIC: [8] Undefined variable: keyword D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 53 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\2adf41bb8d9656b0504623b53eee3eef.php 第 69 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:15+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=SellerList&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.013000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.013001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.016001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.009000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.003000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.014000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_seller_list` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cms_seller_cate` [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `cms_seller_list_cate` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cms_seller_cate` WHERE ( status=1 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_seller_list` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_seller_list` WHERE ( 1=1 ) ORDER BY sort asc LIMIT 0,20   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: values D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 190 行.
+NOTIC: [8] Undefined index: output D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 191 行.
+NOTIC: [8] Undefined index: multiple D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 192 行.
+NOTIC: [8] Undefined index: id D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 193 行.
+NOTIC: [8] Undefined index: size D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 194 行.
+NOTIC: [8] Undefined index: first D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 195 行.
+NOTIC: [8] Undefined index: style D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 197 行.
+NOTIC: [8] Undefined index: dblclick D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 198 行.
+NOTIC: [8] Undefined index: change D:\WWW\jieqiang_lybtest\admin\Lib\TagLib\TagLibTpl.class.php 第 199 行.
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 37 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 37 行.
+NOTIC: [8] Undefined variable: keyword D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 62 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 78 行.
+NOTIC: [8] Use of undefined constant cash_back_rate - assumed 'cash_back_rate' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 79 行.
+NOTIC: [8] Use of undefined constant logo - assumed 'logo' D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\f61d20962cb06e90da1900cc2d5b9c30.php 第 80 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:17+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=4
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.005001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=4 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:17+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=9
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.005000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.007001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.009001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=9 ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:18+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=main
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.010000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.008001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.002000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\a9dbfddae3d9003bea342c344a5599ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:23+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=8
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.007000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.005000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.005000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=8 ) ORDER BY sort DESC  [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:23+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Public&a=menu&tag=1
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.005000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.005000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\PublicAction.class.php 第 26 行.
+SQL: SELECT `id`,`action`,`action_name`,`module`,`module_name`,`data` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0 AND group_id=1 ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+NOTIC: [8] Undefined variable: lang D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\56b8f10ffe533cc36c6f50a3d115f8bd.php 第 1 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-12-24T12:02:25+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Setting&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.016001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017001s ]
+NOTIC: [2048] Declaration of SettingAction::sendMail() should be compatible with that of BaseAction::sendMail() D:\WWW\jieqiang_lybtest\admin\Lib\Action\SettingAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.011001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.009000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+NOTIC: [8] Undefined index: type D:\WWW\jieqiang_lybtest\admin\Lib\Action\SettingAction.class.php 第 16 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\8363ff16aa9d6b6e92344b611cbefaac.php 第 36 行.
+NOTIC: [8] Undefined variable: big_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\8363ff16aa9d6b6e92344b611cbefaac.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:25+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Admin&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008000s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.008000s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.008000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT cms_admin.*,cms_role.name as role_name FROM `cms_admin` LEFT JOIN cms_role ON cms_admin.role_id = cms_role.id  ORDER BY cms_admin.add_time DESC LIMIT 0,30   [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\ffb2f417ce9997a6c7c48649fce696ca.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:26+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Role&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.030002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.030002s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.010001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.017001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.017001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.033002s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.025002s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_role` LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cms_role` LIMIT 0,30   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\d4338985604b83af8230480592c07e77.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:27+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Group&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.007001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.006000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.016001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.001001s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cms_group` ORDER BY sort ASC  [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 36 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined variable: page D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 71 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:02:27+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Node&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.009001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.006001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.007000s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.006001s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.005000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_node` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_node` WHERE ( 1=1 ) ORDER BY module asc,sort ASC LIMIT 0,15   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cms_group`  [ RunTime:0.000000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\c1e580f05898240ff5e20a24b85d23fa.php 第 36 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:02:29+08:00 ] 127.0.0.1 /jieqiang_lybtest/admin.php?m=Group&a=index
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run CheckLang Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_role` [ RunTime:0.008001s ]
+SQL: SELECT `name`,`status`,`remark`,`create_time`,`update_time` FROM `cms_role` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.006000s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.013001s ]
+SQL: SELECT `role_id` FROM `cms_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_access` [ RunTime:0.009001s ]
+SQL: SELECT `node_id` FROM `cms_access` WHERE ( role_id=1 )  [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 54 行.
+SQL: SHOW COLUMNS FROM `cms_node` [ RunTime:0.007000s ]
+SQL: SELECT DISTINCT  `group_id` FROM `cms_node` WHERE ( auth_type<>2 AND status=1 AND is_show=0  ) ORDER BY sort DESC  [ RunTime:0.002000s ]
+SQL: SELECT `id`,`title` FROM `cms_group` WHERE ( status=1 AND id in (4,1,27,9,8) ) ORDER BY sort ASC  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_setting` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cms_setting`  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: iframe D:\WWW\jieqiang_lybtest\admin\Lib\Action\BaseAction.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `cms_group` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cms_group` ORDER BY sort ASC  [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: sub_menu D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 36 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined index: user_name D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 59 行.
+NOTIC: [8] Undefined variable: page D:\WWW\jieqiang_lybtest\admin\Runtime\Cache\625aab429f37602b03012e9e75ab7af5.php 第 71 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

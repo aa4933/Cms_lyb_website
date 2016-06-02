@@ -1,0 +1,217 @@
+﻿
+
+	
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>大连再生自助开户</title>
+		<link href="./css/css.css" rel="stylesheet" type="text/css" />
+		<script type='text/javascript' src='http://118.145.4.142:16927/SelfOpenAccount/dwr/engine.js'></script>
+		<script type='text/javascript' src='http://118.145.4.142:16927/SelfOpenAccount/dwr/interface/FirmManager.js'></script>
+		<script type="text/javascript" src="http://118.145.4.142:16927/SelfOpenAccount/js/authentication.js"></script>
+		<script type="text/javascript">
+	
+</script>
+<script type="text/javascript">
+	
+
+	//刷新验证码
+	function refreshValidateCode() {
+			document.getElementById("validateCodeImg").src = "./image.jsp?"+new Date();
+	}
+	//表单提交
+	function subBtn(){
+		if(formateValidate()){
+			fm.submit();
+		}
+	}
+	
+	function formateValidate(){
+		var member = document.getElementById("member").value;
+		if(member=='-1'){
+			alert("综合会员不能为空");
+			return false;
+		}
+		
+	
+	}
+
+				
+	//获得居间
+	function selcompany(){
+		var member = document.getElementById("member").value;
+		var company = document.getElementById("company");
+		
+		while(company.options.length > 0)
+		{
+			company.options[0].outerHTML = null;
+		}
+		 var oOption = document.createElement("option");
+		    var t = document.createTextNode("----------------------请选择分公司----------------------");
+		    var area =0;
+			oOption.setAttribute("value", "-1");
+			oOption.appendChild(t);
+			company.appendChild(oOption);
+	
+			FirmManager.getMembCompy(member,function(data){
+								
+					var arr=data.split(";");
+					for(var i=0;i<arr.length;i++){
+		    			var oOption = document.createElement("option");
+		    			var arr2=arr[i].split(",");
+		    			if(!arr2[1]){
+		    				//var t = document.createTextNode(arr2[0]);
+			    		}else{
+			    			var t = document.createTextNode("("+arr2[0]+")"+arr2[1]);
+					    }
+						oOption.setAttribute("value", arr2[0]);
+						oOption.appendChild(t);
+						company.appendChild(oOption);
+						}
+			});
+		
+	}
+
+
+
+</script>
+
+	</head>
+	<body >
+		<div class="bor_980">
+			<div class="kh_left">
+				<div class="kh_left_t1">
+					开户流程
+				</div>
+				<div id="step1" class="kh_left_t3">
+					第一步：选择开户单位
+				</div>
+				<div id="step2" class="kh_left_t2">
+					第二步：阅读风险揭示书
+				</div>
+				<div id="step3" class="kh_left_t2">
+					第三步：填写开户信息
+				</div>
+				<div id="step4" class="kh_left_t2">
+					第四步：阅读客户协议书
+				</div>
+				
+				 <div id="step4" class="kh_left_t2">
+					第五步：注册成功
+				</div>
+			</div>
+
+			<div class="kh_right">
+				<div class=" kh_right_bt">
+					第一步流程
+				</div>
+				<div class="kh_right_box">
+				<form id="fm" name="fm" action="http://118.145.4.142:16927/SelfOpenAccount/firmController.fir?funcflg=goNotice" method="post">
+					<table width="740" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td height="90" align="center" valign="middle">
+								<label></label>
+								<!-- 							<label> -->
+								<form id="form" name="form"
+									action="http://118.145.4.142:16927/SelfOpenAccount/firmController.fir?funcflg=goNotice" method="post">
+									<table width="400" border="0" align="center" cellpadding="0"
+										cellspacing="0">		<br/><br/><br/>
+										<tr>
+											<td height="30" colspan="2" align="center">
+												<strong>请选择开户单位</strong>
+											</td>
+										</tr>
+										
+										<tr>
+											<td width="40%" height="60" align="left"
+												style="text-align: right; font-size: 15px;  ">
+												<span style="color: #F00;">* </span>综合会员单位：
+											</td>
+											<td width="60%" align="left"  id="yuan">
+											<select style="width: 280px" name="member" id="member" onchange="selcompany()">
+												
+												
+												<option value="117">(117)大连利友邦商品经营有限公司</option>
+												
+											</select>
+										</td>
+										</tr>
+										
+										
+										<tr>
+											<td width="30%" height="60" align="left"
+												style="text-align: right; font-size: 15px;  ">
+												<span style="color: #F00;">* </span>验证码：
+											</td>
+											
+											<td width="70%" align="left">
+												<input name="validateCode" type="text" id="validateCode"
+													value="" size="5"
+													style="border: 1px solid #dbdbdb; height: 30px; line-height: 30px; padding-left: 10px;" />
+												<label valign="middle"> <img id="validateCodeImg"
+													name="validateCodeImg" align="absMiddle" src="http://118.145.4.142:16927/SelfOpenAccount/image.jsp"
+													alt="验证码" /></label>
+												<a href="javascript;"
+													onclick="refreshValidateCode();return false;">换一张</a>
+											</td>
+										</tr>
+										<tr>
+											<td width="50%" height="60"
+												style="text-align: right; font-size: 15px;  ">
+												
+												&nbsp;
+											</td>
+											<td width="50%" align="left">
+												<label>
+													<input name="submitBtn"  type="submit" class="bnt"
+														id="submitBtn" value="下一步"   />
+												</label>
+											</td>
+										</tr>
+										<tr>
+											<td height="60" colspan="2" align="center">
+												<label></label>
+											</td>
+										</tr>
+									</table>
+								</form>
+								<br />
+							</td>
+						</tr>
+					</table>
+				</form>
+						<div class="tips" style="color: red; text-indent: 2em; font-size:1.5em; line-height: 30px;" >
+							<div class="tips_title" style="text-indent: 0em; color:black;">
+								<span>温馨提示：</span>
+							</div>
+							<div class="tips_content">
+								<span>
+								请务必填写真实身份信息，且与要进行资金三方托管的银行卡必须为同一身份证件开立，
+								如填写虚假或者错误的姓名以及身份证号，在银行验证环节将无法通过，无法开立交易账户。
+								</span>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<link href="http://118.145.4.142:16927/SelfOpenAccount/css/css.css" rel="stylesheet" type="text/css" />
+   
+<script type="text/javascript">
+	
+</script>
+  
+ 
+
+
+	</body>
+</html>

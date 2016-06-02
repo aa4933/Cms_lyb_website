@@ -1,0 +1,114 @@
+/*导航样式*/
+/* common styling */
+/* set up the overall width of the menu div, the font and the margins */
+/*
+body{
+	background-color:white;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+	color:white;
+}
+*/
+
+/* 导航 */
+.header .nav-bar{clear:both; height:33px}
+.header .nav-bar,.header .nav-bar map,.header .nav-site,.header .nav-site li.line,.header .subnav{background: url(../images/v9/nav.png) no-repeat}
+.header .nav-bar map{background-position: right -130px; display:block}
+
+.header .nav-site{height:33px;background-position: left -65px;background-repeat: repeat-x; margin:0 5px; padding-left:5px}
+/*
+设置高度
+.header .nav-site li{float:left; height:33px; line-height:33px; padding:0 5px; }
+
+设置字体样式
+.header .nav-site li a{color:#fff; font-size:14px; font-weight:700;*display:block}
+*/
+.header .nav-site li.line{background-position: 2px -215px; padding:0; width:10px; text-indent:-10000px}
+.header .subnav{ padding-left:16px; border-left:1px solid #d2dfed;border-right:1px solid #d2dfed;background-position: left -33px;background-repeat: repeat-x; height:32px; line-height:32px}
+.header .subnav a{ color:#004499}
+.header .subnav span{ padding:0 3px; color:#c8d8e9;}
+
+.nav-bar ul,li{
+	margin:0px;
+	padding:0px;
+}
+.nav-bar li{
+	display:inline;
+	list-style:none;
+	list-style-position:outside;
+	text-align:center;
+	font-weight:bold;
+	float:left;
+}
+.nav-bar a:link{
+	color:#336601;
+	text-decoration:none;
+	float:left;
+	width:100px;
+	padding:3px 5px 0px 5px;
+}
+.nav-bar a:visited{
+	color:#336601;
+	text-decoration:none;
+	float:left;
+	padding:3px 5px 0px 5px;
+	width:100px;
+}
+.nav-bar a:hover{
+	color:white;
+	float:left;
+	padding:3px 3px 0px 20px;
+	width:88px;
+	text-decoration:none;
+	background-color:#539D26;
+}
+.nav-bar a:active{
+	color:white;
+	float:left;
+	padding:3px 3px 0px 20px;
+	width:88px;
+	text-decoration:none;
+	background-color:#BD06B4;
+}
+.nav{
+	width:600px;
+	height:30px;
+	border-bottom:0px;
+	padding:0px 5px;
+	position:absolute;
+	z-index:1;
+	left: 198px;
+	top: 25px;
+}
+.list{
+	line-height:20px;
+	text-align:left;
+	padding:4px;
+	font-weight:normal;
+}
+.menu1{
+	width:120px;
+	height:auto;
+	margin:6px 4px 0px 0px;
+	border:1px solid #9CDD75;
+	background-color:#F1FBEC;
+	color:#336601;
+	padding:6px 0px 0px 0px;
+	cursor:hand;
+	overflow-y:hidden;
+	filter:Alpha(opacity=70);
+	-moz-opacity:0.7;
+}
+.menu2{
+	width:120px;
+	height:18px;
+	margin:6px 4px 0px 0px;
+	background-color:#F5F5F5;
+	color:#999999;
+	border:1px solid #EEE8DD;
+	padding:6px 0px 0px 0px;
+	overflow-y:hidden;
+	cursor:hand;
+}

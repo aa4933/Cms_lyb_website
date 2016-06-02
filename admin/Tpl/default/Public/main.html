@@ -1,0 +1,58 @@
+<include file="Public:header" />
+<link href="__ROOT__/statics/admin/css/main.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+$(function(){	
+	$(".main_con").hover(
+			  function () {
+			    $(this).css("background","#ffffcc");
+			  },
+			  function () {
+			    $(this).css("background","#ffffff");
+			  }
+	);
+})
+</script>
+<div style="padding:10px; overflow:hidden;">
+	<!-- <div class="main_top" style="clear:both;">			
+		<if condition="$no_security_info eq 1">
+			<h4>安全提示</h4>	
+			 <volist name="security_info" id="v">              
+					<p class="red" style="font-size:14px;">※　{$v}</p>				
+	       	</volist>	
+		</if>	
+		<h4>网站无法显示</h4>	
+		<p class="green">网站以前正常显示，现在无法显示请清除缓存试试，【<a href="{:u('Cache/index')}">{$Think.lang.flush_cache}</a>】</p>
+		
+	</div> -->
+	<div style="width:50%;" class="fl">
+		<div class="main_con fl">
+			<h6>版权信息</h6>
+			<div class="content">
+								
+				<p>开发与支持团队：厦门街墙科技开发有限公司</p>
+				<p>UI/美工设计：厦门街墙科技开发有限公司</p>				
+				<div class="hr">			
+				</div>				
+				<p>官方论坛：<a href="http://w.jieqiangtec.com" >w.jieqiangtec.com</a></p>
+				
+			</div>
+		</div>		
+
+	</div>
+	<div style="width:49%;" class="fr">		
+		<div class="main_con fl">
+			<h6><span class="more"><a href="" >more>></a></span>官网公告</h6>
+			<div class="content">	
+				<ul>
+					<script type=""></script>
+					作者：<b>jieqiang</b><i>QQ:1569501393</i><br />
+					作者：<b>jieqiang</b><i>QQ:1569501393</i><br />
+					作者：<b>jieqiang</b><i>QQ:1569501393</i><br />
+					作者：<b>jieqiang</b><i>QQ:1569501393</i><br />
+				</ul>				
+			</div>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

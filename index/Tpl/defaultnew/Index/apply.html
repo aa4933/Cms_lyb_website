@@ -1,0 +1,91 @@
+<include file="Public:header" />
+
+<!-- 列表和详情样式 -->
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/bootstrap.min.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/init.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/hf.css" />
+<link rel="stylesheet" href="__ROOT__/statics/index/youhua/down.css" />
+<script type="text/javascript" src="__ROOT__/statics/index/youhua/jquery-1.7.2.js" ></script>
+<style>
+    .down_c ul li{border-bottom: none;}
+
+
+    .fen_div {
+    height: 48px;
+    width: 46%;
+    border: 1px solid #869e55;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    line-height: 48px;
+    display: block;
+     margin: 5px; 
+    /*margin-right: 5%;
+    margin-bottom: 3%;*/
+    }
+</style>
+
+<div class="banner">
+            <img src="__ROOT__/statics/index/youhua/down_02.png" />
+        </div>
+        <div class="main">
+            <div class="container">
+            <div class="down_t clearfix">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                <div class="down_t_lf">
+                    <span>在线开户</span></div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12 clearfix">
+                    <div class="right down_rt">
+                        <span> 当前位置： > </span>
+                        <a href="#">首页</a>
+                        <span> > </span>
+                        <a href="#">在线开户</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="kaihu">
+                <div class="zong clearfix">
+                    <span>
+                    <a href="http://118.145.4.142:16927/SelfOpenAccount/firmController.fir?funcflg=getMember&memNo=117">
+                        总公司开户入口</a>
+                    </span>
+                    <em></em>
+                </div>
+                <div class="clearfix fen">
+                <!-- <a href="#" class="left fen_div">云霄分公司开户入口1</a> -->
+                    <volist id="val" name="companys" >
+                    <a href="{$val.url}" class="left fen_div">{$val.name}</a>
+                    </volist>
+                    
+                </div>
+                <!-- <div class="clearfix fen">
+                    <a href="#" class="left fen_div">云霄分公司开户入口</a>
+                    <a href="#" class="right fen_div">海沧分公司开户入口</a>
+                </div> -->
+                <div class="tishi">
+                    <div class="clearfix">
+                        <div class="tishi_t left">温馨提示：</div>
+                        <a href="#" class="right">开户流程</a>
+                    </div>
+                    <p>
+                        请务必填写真实身份信息，且与要进行资金三方托管的银行卡
+必须为同一身份证件开立， 如填写虚假或者错误的姓名以及身
+份证号，在银行验证环节将无法通过，无法开立实盘交易账户。
+                    </p>
+                </div>
+            </div>
+            
+            
+            
+            </div>
+          
+        </div>
+
+            <!-- 底部导航     -->
+<include file="Public:link" />
+
+<!-- 底部版权 -->
+<include file="Public:footer" />

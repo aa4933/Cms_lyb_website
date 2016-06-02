@@ -1,0 +1,250 @@
+#left_bar { /*main左栏*/
+float:left;
+width:294px;
+margin:0 0 0 1px;
+}
+
+#right_bar { /*main右栏*/
+width:694px;
+float:right;
+font:1.2em/1.8em "宋体",serif;
+}
+
+#big_title {
+width:694px;
+height:35px;
+background:#E7E7E7 url(subpage_right_top_bg.gif) repeat-x;
+margin:0 0 1px 0;
+}
+
+.position_img {
+float:left;
+margin:8px 0 0 10px;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.position {
+margin:12px 0 0 8px;
+font:12px/18px "宋体",serif;
+color:#8F8F8F;
+}
+
+.position a{
+color:#8F8F8F;
+}
+
+.position a:hover {
+color:#FF832C;
+}
+
+.sub_title {
+background:#E7E7E7 url(sub_bar_title_bg.gif);
+width:294px;
+height:36px;
+}
+
+.sub_title h2 {
+float:left;
+margin:0 0 0 40px;
+font:14px/36px "微软雅黑","黑体",sans-serif;
+color:#151515;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+
+.board_list {
+margin:1px 0 10px 0;
+padding:10px 0 1px 0;
+background:#EEE url(sub_left_nav_bg.gif) repeat-x;
+height:199px;
+}
+.board_list li{
+width:294px;
+height:29px;
+}
+
+.board_list li a {
+display:block;
+width:264px;
+height:29px;
+padding:0 0 0 30px;
+background:url(article_head.gif) no-repeat;
+font:12px/29px "宋体",serif;
+color:#808080;
+}
+
+.board_list li a:hover,.board_list .current_subnav a{
+background:#EEE url(article_on_bg.gif) no-repeat;
+color:#FF832C;
+}
+
+/**分页模块**/
+#page_list {
+clear:left;
+float:left;
+height:20px;
+text-align:right;
+width:674px;
+padding:15px 20px 10px 0;
+font-size:12px;
+color:#979797;
+}
+
+#page_list a{
+color:#979797;
+}
+
+#page_list a:hover,.current_page{
+color:#FF832C;
+}
+/*分页模块结束*/
+
+
+/*文章列表页面开始*/
+#artlist {
+margin:5px 0 0 15px;
+font:1.2em/2.2em "宋体",serif;
+}
+
+#artlist dt{
+width:100px;
+clear:left;
+float:left;
+margin:0 10px 0 0;
+}
+
+#artlist dt,#artlist dt a{
+color:#939393;
+}
+
+.a_title,.pubdate{
+height:2.2em;
+float:left;
+}
+
+#artlist dt, .a_title a, .pubdate a {
+color:#666;
+}
+
+#artlist dt a:hover, .a_title a:hover {
+color:#FF832C;
+}
+
+.a_title {
+width:465px;
+}
+
+.pubdate {
+font-family:Arial,sans-serif;
+color:#9C9C9C;
+}
+
+/**案例列表开始***/
+#caselist {
+width:694px;
+}
+
+#caselist li {
+height:130px;
+padding:9px 9px 9px 12px;
+font:1.2em/1.8em "宋体",serif;
+color:#979797;
+border-top:1px solid #E9E9E9;
+}
+
+#caselist h2 {
+color:#6F6F6F;
+font-size:14px;
+font-weight:bold;
+}
+
+.case_img a {
+float:left;
+width:160px;
+height:125px;
+margin:0 9px 0 0;
+border:3px solid #EBEBEB;
+}
+
+.case_img a:hover {
+border:3px solid #FF832C;
+}
+
+.case_intro {
+height:76px;
+}
+
+.case_detail {
+float:left;
+padding-left:15px;
+font:12px/14px "宋体",serif;
+height:14px;
+width:30px;
+background:url(case_detail.gif) no-repeat;
+}
+
+.case_detail a {
+color:#707070;
+}
+
+.case_detail a:hover {
+color:#FF832C;
+}
+
+/**联系我们页面**/
+
+#kefu_girl {
+float:left;
+margin:18px;
+border:3px solid #DDD;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+#contact_info {
+float:left;
+margin:18px 0 0 0;
+font:1.2em/1.8em "宋体",serif;
+color:#808080;
+width:520px;
+height:160px;
+background:#EEE url(sub_left_nav_bg.gif) repeat-x;
+}
+
+
+#contact_info dt {
+clear:left;
+float:left;
+width:44px;
+}
+
+.nospam {
+display:inline;
+}
+
+#address {
+clear:left;
+float:left;
+width:169px;
+text-align:center;
+font:1.2em/1.8em "宋体",serif;
+color:#808080;
+}
+
+#map {
+border:2px solid #DDD;
+}
+
+/*支付方式页面*/
+table,td{
+border:solid 1px #D9D9D9;
+border-collapse: collapse ;
+}
+
+#payt {
+margin-top:1px;
+}
+
+#payt table td,#payt table tr,#payt table{
+border:0px;
+border-collapse : separate;
+}

@@ -1,0 +1,30 @@
+/* -----------------@ reset CSS----------------------------*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,table{ margin:0; padding:0;}
+body{ font:12px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1","\5B8B\4F53"; background:#f2f2f2; color:#666;}
+h1,h2,h3,h4,h5,h6{font-size:12px; font-weight:normal;}
+input{vertical-align:middle; outline:medium none;}
+button, input, select, textarea,th,td{ font-family: "microsoft yahei","\5FAE\8F6F\96C5\9ED1",tahoma,"\5B8B\4F53"; font-size:12px;}
+table {border-collapse:collapse;border-spacing:0; font-size:12px;}
+fieldset, img {border:none;}
+ul,li{list-style:none; zoom:1;}
+button{cursor:pointer; margin:0; padding:0;}
+a{color:#666;text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover,a.sel {color:#ff8400;text-decoration:underline;}
+a:active {color:#ff8400;}
+
+/*在线客服*/
+.keifu{ position:fixed; top:10%; right:0; width:131px;  _position:absolute; _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.bottom,10)||0)-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));
+ z-index:990;}
+.keifu_tab{ width:160px;}
+.icon_keifu{ width:26px; height:100px; float:left; background:url(../images/keifu.png) 0 0; position:relative; display:none; cursor:pointer;}
+.keifu_box{ float:left; width:131px;}
+.keifu_tab img{ display:block;}
+.keifu_head{ width:131px; height:41px; background:url(../images/keifu.png); background-position: 0 -103px; font-size:0; line-height:0; position:relative;}
+.keifu_close:link,.keifu_close:visited{ display:block; width:11px; height:11px; background:url(../images/keifu.png) -42px 0; position:absolute; top:5px; right:5px;}
+.keifu_close:hover{ background-position:-60px 0;}
+.keifu_con{ border-left:7px solid #029bdb; border-right:7px solid #029bdb; padding-top:15px; background:#fbfbfb;}
+.keifu_con li{height:33px; padding-left:12px;}
+.keifu_con .weixin{ height:96px;}
+.keifu_con .bt{ font-size:16px; height:30px; line-height:30px; text-align:left; padding:0 0 0 20px; color:#012646;}
+.keifu_bot{ width:131px; height:119px; background:url(../images/keifu.png); background-position:0 -149px; }

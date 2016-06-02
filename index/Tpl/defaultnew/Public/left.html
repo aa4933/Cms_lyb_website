@@ -1,0 +1,33 @@
+<div class="col-md-3 col-sm-12 col-xs-12">
+                  <div class="newsmain_lf_t clearfix">
+                    <div class="left newsmain_lf_t_lf">
+                      <span class="news_big left">{$cateName}</span>
+                      <span class="news_small left">/ {$alias}</span>
+                      
+                    </div>
+                    <a href="{:U('Index/cate', "cid=$cid")}" class="right">更多</a>
+                  </div>
+                    <div class="newsmain_lf_con">
+                        <div class="newsmain_lf_b">
+                      <ul>
+                      
+                        <volist name="list_company" id="list_company">
+                            <li class="clearfix">
+                                <a href="{:U('Index/detail', "aid=$list_company[id]")}" class="left">{$list_company.title|subtext=7}</a>
+                                
+                            </li>
+
+                        </volist>
+                                
+                      </ul>
+                    </div>
+                    
+                     <div class="newsmain_lf_img">
+                      <if condition="$ad_list[3]['id'] neq ''"><a href="{$ad_list[3]['url']}"><img src="__ROOT__/data/advert/{$ad_list[3]['code']}"  /></a>
+
+                      <else />
+                      <img src="__ROOT__/statics/index/youhua/news_10.png" />
+                      </if>
+                     </div>
+                </div>
+                </div>

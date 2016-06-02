@@ -1,0 +1,176 @@
+/*公用元素区*/
+.f_left {
+float:left;
+}
+
+.f_right {
+float:right;
+}
+
+.clear {
+clear:both;
+height:0px;
+border:0px none;
+overflow:hidden;
+}
+
+.more a{
+font:1em/1em Tahoma,Verdana,Arial,sans-serif;
+color:#707070;
+line-height:35px;
+margin-right:10px;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.more a:hover {
+color:#FF832C;
+}
+
+/*公用元素区结束*/
+
+#container {
+width:1002px;
+margin: 0 auto;
+}
+
+#header {
+width:1002px;
+height:128px;
+background:url(top_bg.jpg);
+}
+
+#logo {
+float:left;
+}
+
+#english{
+float:right;
+margin: 6px 20px 0 0;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+#english a {
+font:11px/11px Tahoma,Verdana,Arial,sans-serif;
+color:#898989;
+}
+
+#english a:hover {
+color:#FF832C;
+}
+
+/***导航开始*****/
+#nav {
+clear:both;
+}
+
+#nav ul{
+float:left;
+margin:0 0 0 6px;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.nav_li {
+float:left;
+width:89px;
+height:37px;
+margin-right:2px;
+}
+
+.nav_li a {
+display:block;
+height:37px;
+text-align:center;
+font:1.5em/37px "微软雅黑","黑体",sans-serif;
+color:#363636;
+}
+
+.nav_li a:hover,.onhover {
+background:#FF9532 url(nav_on.gif);
+color:#FFF;
+}
+
+#li_index {
+width:84px;  /*首页*/
+}
+
+#pro_tech {
+width:100px; /*业务介绍*/
+}
+
+#keyword {
+width:195px;
+height:16px;
+border:0px none;
+margin:11px 0 0 98px;
+float:left;
+color:#B9B9B9
+}
+
+#so {
+margin:11px 0 0 2px;
+}
+
+/*****导航结束*****/
+
+#banner {
+margin:6px 1px;;
+}
+
+/*****页面主体开始*******/
+#main {
+width:1002px;
+height:auto;
+}
+/*****页面主体结束*******/
+
+/*****底部开始*******/
+#bottom {
+width:1002px;
+height:35px;
+background:#F1F1F1;
+margin:10px 0 0 0;
+}
+
+#bottom ul {
+margin-left:10px;
+}
+
+#bottom li {
+float:left;
+margin:12px 10px 0 0;
+}
+
+#bottom li a {
+font-size:1.2em;
+color:#979797;
+}
+
+#bottom li a:hover {
+color:#FF832C;
+}
+
+#footer,#footer a{
+margin:9px 0 10px 0;
+font:1.2em/1.2em Arial,Tahoma;
+color:#979797;
+}
+
+
+#footer a:hover {
+color:#979797;
+text-decoration:underline;
+}
+
+#footer .w3valid a{
+margin-left:10px;
+font:1em/1em Arial,Tahoma;
+color:#FF832C;
+}
+
+#footer .w3valid a:hover {
+color:#979797;
+text-decoration:underline;
+}
+
+
+/*****底部结束******/

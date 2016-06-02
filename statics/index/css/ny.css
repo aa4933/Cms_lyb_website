@@ -1,0 +1,49 @@
+
+@media only screen and (min-width:1000px) {
+  .nylf{width: 25%;float: left;padding: 5px;}
+  .nyrt{width: 72%;float: right;}
+  .gidongtai_t{background: #878586;text-align: center;padding: 5px;color: #fff;margin-top: 6px;}
+  .gidongtai_ul li{padding: 8px 0px;}
+  .gidongtai_ul li a{color: #333;}
+  .gidongtai_ul li a:hover{text-decoration: underline;}
+  #billy_clip { 
+	width: 100%; 
+	position: relative; /* For IE */
+	overflow: hidden;
+	
+	z-index:100;
+}
+.nyrt_b_ul li{line-height: 22px;}
+.daohang{height: 130px;}
+
+}
+
+
+/*还原轮播样式*/
+/*.daohang_t{background: none;}
+.daohang_b{background: none;}*/
+
+@media only screen and (max-width: 1000px) {
+  .nylf{width: 100%;padding: 5px;}
+  .gidongtai{display: none;}
+  .nyrt{margin: 20px 0px;}
+  .newt{font-size: 1.2em;}
+}
+.nylf{border: 1px solid #ddd;}
+.nymain{border-top:1px solid #e5080f;background: #fff;padding-top: 6px;margin: 10px auto;}
+.caidan li{text-align: center;border-bottom: 1px dashed #ccc;}
+.caidan li a{display: block;color: #333;height: 35px;line-height: 35px;}
+.caidan li a:hover{background: #f20000;color: #fff;}
+.caidan  .ahover{background: #f20000;color: #fff;}
+.place{color: #333;font-size: 12px;}
+.nyrt a{color: #333;}
+.nyrt_t{padding: 0px 1%;height: 40px;line-height: 40px;}
+.nyrt_b{border: 1px solid #ddd;border: 1px solid #eee;margin-top: 5px;padding: 1% 8px;}
+.nyrt_b_ul li{border-bottom: 1px solid #ddd;padding: 7px 0px;}
+.slideBox{ width:100%;  overflow:hidden; position:relative;    } 
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:10px; bottom:10px; z-index:1; } 
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  } 
+.slideBox .hd ul li{ float:left; margin-right:5px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; } 
+.slideBox .hd ul li.on{ background:#f00; color:#fff; } 
+.slideBox .bd{ position:relative; height:100%; z-index:0;   } 
+.slideBox .bd img{ width:100%;  } 

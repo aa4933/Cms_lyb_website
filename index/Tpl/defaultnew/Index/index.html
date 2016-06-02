@@ -1,0 +1,306 @@
+<!-- 头部 -->
+<include file="Public:header" />
+    <?php 
+        // var_dump($list_best);
+     ?>
+    <div class="banner">
+        <div class="block_home_slider">
+            <div id="home_slider" class="flexslider">
+
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                    <ul class="slides" style="width: 800%; margin-left: -1423px;">
+
+
+                        <volist name='list_best' id='list_best' >
+
+
+                            <li>
+                                <div class="slide">
+                                    <a href="{:U('Index/detail', "aid=$list_best[id]")}"
+                            target="_blank" title="{$list_best.title}" style="">
+                                    <img src="__ROOT__/data/news/{$list_best.img}"
+                            alt="{$list_best.title}" alt="{$list_best.title}" /></a>
+                                </div>
+                            </li>
+
+                        </volist>
+
+                    </ul>
+                </div>
+                <ol class="flex-control-nav flex-control-paging">
+                    <li>
+                        <a class="flex-active">1</a>
+                    </li>
+                    <li>
+                        <a class="">2</a>
+                    </li>
+                </ol>
+                <ul class="flex-direction-nav">
+                    <li>
+                        <a class="flex-prev" href="#111">Previous</a>
+                    </li>
+                    <li>
+                        <a class="flex-next" href="#111">Next</a>
+                    </li>
+                </ul>
+            </div>
+
+            <script type="text/javascript">
+                                $(function () {
+                                    $('#home_slider').flexslider({
+                                        animation : 'slide',
+                                        controlNav : true,
+                                        directionNav : true,
+                                        animationLoop : true,
+                                        slideshow : true,
+                                        useCSS : false
+                                    });
+                                    
+                                });
+                            </script>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main_one clearfix">
+                <div class="col-md-4 col-sm-12 col-xs-12 clearfix">
+                    <div class="jiaodiantu">
+                        <div class="indexPicBox">
+                            <div class="hotPic">
+                                <div class="num">
+                                    <span class="cur">1</span>
+                                    <!-- <span class="">2</span>
+                                    <span class="">3</span> -->
+                                    <?php 
+                                        $count = ((count($list_hot))+1);
+                                        // var_dump($list_hot);
+                                        for ($i=2; $i < $count; $i++) { 
+                                            echo "<span class=''>$i</span>";
+                                        }
+                                     ?>
+
+                                </div>
+                                <ul class="pic clearfix">
+                                    <volist name='list_hot' id='list_hot' >
+
+                                        <li style="display: block;">
+                                            <a href="{:U('Index/detail', "aid=$list_hot[id]")}"
+                                        target="_blank" title="{$list_hot.title}" style="">
+                                                <img src="__ROOT__/data/news/{$list_hot.img}"
+                                        alt="{$list_hot.title}" width="310" height="260" /></a>
+                                        </li>
+
+                                    </volist>
+
+
+                                </ul>
+                            </div>
+                            <script type="text/javascript">
+//焦点图
+$(function(){
+    var sw = 0;
+    $(".hotPic .num span").mouseover(function(){
+        sw = $(".hotPic .num span").index(this);
+        myShow(sw);
+    });
+    function myShow(i){
+        $(".hotPic .num span").eq(i).addClass("cur").siblings("span").removeClass("cur");
+        $(".hotPic .pic li").eq(i).stop(true,true).fadeIn(600).siblings("li").fadeOut(600);
+        //$(".hotPic .text p").eq(i).show().siblings("p").hide();
+    }
+    //滑入停止动画，滑出开始动画
+    $(".hotPic").hover(function(){
+        if(myTime){
+           clearInterval(myTime);
+        }
+    },function(){
+        myTime = setInterval(function(){
+          myShow(sw)
+          sw++;
+          if(sw==$(".hotPic .pic li").length){sw=0;}
+        } , 3000);
+    });
+    //自动开始
+    var myTime = setInterval(function(){
+       myShow(sw)
+       sw++;
+       if(sw==$(".hotPic .pic li").length){sw=0;}
+    } , 3000);
+})
+</script>
+                        </div>
+                    </div>
+                    <div class="guanggao">
+                        <if condition="$ad_list[0]['id'] neq ''"><a href="{$ad_list[0]['url']}"><img src="__ROOT__/data/advert/{$ad_list[0]['code']}"  /></a>
+
+                      <else />
+                      <img src="__ROOT__/statics/index/youhua/index_35.png">
+                      </if>
+
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12 ">
+                    <div class="celue clearfix">
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <a href="{:U('Index/cate', "cid=9")}" class="celue_div celue_one"> <em></em>
+                                <p>今日策略</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <a href="{:U('Index/cate', "cid=28")}" class="celue_div celue_two">
+                                <em></em>
+                                <p>金融动态</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <a href="{:U('Index/cate', "cid=44")}" class="celue_div celue_three">
+                                <em></em>
+                                <p>公司公告</p>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-6">
+                            <a href="{:U('Index/cate', "cid=46")}" class="celue_div celue_four">
+                                <em></em>
+                                <p>分析团队</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="leibiao clearfix">
+                        <div class="col-md-8 col-sm-8 col-xs-12 sy_news">
+                            <ul class="leibiao_ul">
+                                <volist name="list_hothh" id="list_hothh">
+                                    <li>
+                                        <a href="{:U('Index/detail', "aid=$list_hothh[id]")}" class="clearfix">
+                                             {$list_hothh.title|subtext=28}
+                                        </a>
+
+                                    </li>
+                                </volist>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12" style="padding: 0px;">
+                            <a href="http://zb1.lybpe.com/logging.php" class="zhibo clearfix">
+                                <div class="zhiboc">
+                                    <div class="clearfix">
+                                        <em class="left"></em>
+                                        <span class="left">
+                                            在线直播室
+                                            <p style="font-size: 10px;">答疑解惑，在线喊单</p>
+                                            <p style="font-size: 10px;">技术分析，赢在今夜</p>
+                                        </span>
+                                    </div>
+
+                                </div>
+                            </a>
+                            <a href="{:U('Index/cate', "cid=999")}" class="ruanjian">
+                                <div class="ruanjianc">
+                                    <div class="clearfix">
+                                        <em class="left"></em>
+                                        <div class="left">
+                                            软件下载
+                                            <p style="font-size: 10px;">行情及时/ 稳定 / 精准</p>
+                                            <p style="font-size: 10px;">指标功能强大</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="{:U('Index/cate', "cid=17")}" class="yuyue clearfix">
+                                <div class="yuyuec">
+                                    <em class="left"></em>
+                                    <span class="left">在线开户</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main_two">
+                <!-- <img src="__ROOT__/statics/index/youhua/index_43.png"> -->
+
+                <if condition="$ad_list[1]['id'] neq ''"><a href="{$ad_list[1]['url']}"><img src="__ROOT__/data/advert/{$ad_list[1]['code']}"  /></a>
+              <else />
+              <img src="__ROOT__/statics/index/youhua/index_43.png">
+              </if>
+            </div>
+            <div class="main_three clearfix">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="main_three_t">
+                        <div class="left main_three_tlf">每日交易策略</div>
+                        <a href="{:U('Index/cate', "cid=9")}" class="right">更多</a>
+                    </div>
+                    <div class="main_three_b">
+                        <ul>
+                            
+                            <volist name="list_announce" id="list_announce">
+                                <li>
+                                    <!-- ·[{$list_announce.add_time|substr=0,10}]
+                                    <a href="{:U('Index/detail', "aid=$list_announce[id]")}"
+                                    target="_blank" title="{$list_announce.title}" style="">
+                                         {$list_announce.title}
+                                    </a> -->
+
+                                    <a href="{:U('Index/detail', "aid=$list_announce[id]")}" class="clearfix">
+                                        <span class="left"><!-- {$list_announce.title} -->{$list_announce.title|subtext=12}</span>
+                                        <span class="right">{$list_announce.add_time|substr=0,10}</span>
+                                    </a>
+
+                                </li>
+                            </volist>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="main_three_t">
+                        <div class="left main_three_tlf">金融动态</div>
+                        <a href="{:U('Index/cate', "cid=28")}" class="right">更多</a>
+                    </div>
+                    <div class="main_three_b">
+                        <ul>
+                            <volist name="list_mycompany" id="list_mycompany">
+                                <li>
+                                    <a href="{:U('Index/detail', "aid=$list_announce[id]")}" class="clearfix">
+                                        <span class="left">{$list_mycompany.title|subtext=12}</span>
+                                        <span class="right">{$list_mycompany.add_time|substr=0,10}</span>
+                                    </a>
+
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    <div class="main_three_t">
+                        <div class="left main_three_tlf">供求概况</div>
+                        <a href="{:U('Index/cate', "cid=15")}" class="right">更多</a>
+                    </div>
+                    <div class="main_three_b">
+                        <ul>
+                            <volist name="list_company" id="list_company">
+                                <li>
+                                    <a href="{:U('Index/detail', "aid=$list_company[id]")}" class="clearfix">
+                                        <span class="left">{$list_company.title|subtext=12}</span>
+                                        <span class="right">{$list_company.add_time|substr=0,10}</span>
+                                    </a>
+
+                                </li>
+                            </volist>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main_two" style="margin-top: 10px;">
+                <if condition="$ad_list[2]['id'] neq ''"><a href="{$ad_list[2]['url']}"><img src="__ROOT__/data/advert/{$ad_list[2]['code']}"  /></a>
+              <else />
+              <img src="__ROOT__/statics/index/youhua/index_47.png">
+              </if>
+
+            </div>
+            
+    
+<!-- 底部导航     -->
+<include file="Public:link" />
+
+<!-- 底部版权 -->
+<include file="Public:footer" />

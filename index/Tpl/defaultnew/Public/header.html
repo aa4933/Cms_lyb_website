@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>大连利友邦商品经营有限公司</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link href="__ROOT__/statics/index/youhua/favicon.ico" mce_href="__ROOT__/statics/index/youhua/favicon.ico" rel="bookmark" type="image/x-icon" /> 
+    <link href="__ROOT__/statics/index/youhua/favicon.ico" mce_href="__ROOT__/statics/index/youhua/favicon.ico" rel="icon" type="image/x-icon" /> 
+    <link href="__ROOT__/statics/index/youhua/favicon.ico" mce_href="__ROOT__/statics/index/youhua/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+
+    <link rel="stylesheet" href="__ROOT__/statics/index/youhua/bootstrap.min.css">
+    <link rel="stylesheet" href="__ROOT__/statics/index/youhua/init.css">
+    <link rel="stylesheet" href="__ROOT__/statics/index/youhua/hf.css">
+    <link rel="stylesheet" href="__ROOT__/statics/index/youhua/shouye.css">
+    <script type="text/javascript" src="__ROOT__/statics/index/youhua/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="__ROOT__/statics/index/youhua/jquery.flexslider-min.js"></script>
+
+
+    <link rel="stylesheet" href="__ROOT__/statics/index/youhua/qqkf.css" />
+
+     <script type="text/javascript" src="__ROOT__/statics/index/youhua/qqkf.js" ></script>
+
+</head>
+<body>
+    <!-- qq客服 -->
+    <div id="top"></div>
+
+    <div class="head">
+        <div class="container clearfix">
+            <a href="#111" class="logo left">
+                <img src="__ROOT__/statics/index/youhua/logo.png"></a>
+            <div class="left head_text">
+                <p class="small_head_text">大连再生资源交易所</p>
+                <p class="fw">第117号会员单位</p>
+            </div>
+            <div class="right">
+                <div class="head-link clearfix">
+                    <a href="#">收藏网站</a>
+                    <a href="{:U('Index/cate', "cid=998")}" style="border-right: none;">手机软件下载</a>
+                </div>
+                <div class="telp clearfix"> <em class="left"></em>
+                    <span class="left">
+                        服务热线：
+                        <span class="telp_hao">0592-2667786</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="container">
+
+            <ul class="jsddm clearfix">
+
+                <li class="li">
+                    <a href="__ROOT__/" class="a">首页</a>
+                </li>
+
+                <volist name="article_cate_list['parent']" id='val'>
+                    <li class="li">
+                        <a href="{:U('Index/cate', "cid=$val[id]")}" class="a">{$val.name}</a>
+                        <ul class="xialaUl">
+                            <volist name="article_cate_list['sub'][$val['id']]" id='sval'>
+                                <li>
+                                    <a href="{:U('Index/cate', "cid=$sval[id]")}">{$sval.name}</a>
+                                </li>
+
+                            </volist>
+                        </ul>
+                    </li>
+                </volist>
+            </ul>
+            <div class="shoujimenu clearfix">
+                <span class="right menubtn">Menu</span>
+
+            </div>
+        </div>
+    </div>
+    <div class="shouM none">
+        <div class="menud center">MENU</div>
+        <p class="center">
+            <a href="__ROOT__/" class="a">首页</a>
+
+        </p>
+
+        <volist name="article_cate_list['parent']" id='val'>
+            <p class="center">
+            <a href="{:U('Index/cate', "cid=$val[id]")}">{$val.name}</a>
+            </p>
+            <ul>
+                <volist name="article_cate_list['sub'][$val['id']]" id='sval'>
+                    <li class="center">
+                        <a href="{:U('Index/cate', "cid=$sval[id]")}">{$sval.name}</a>
+                    </li>
+                </volist>
+            </ul>
+
+        </volist>
+
+    </div>
+
+
+
+
+
+
+    

@@ -1,0 +1,302 @@
+[ 2015-12-24T12:09:49+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.002000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-12-24T12:13:52+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.013001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.006001s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.005000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004001s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:14:01+08:00 ] 127.0.0.1 /jieqiang_lybtest/index.php/Index/cate/cid/22
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.010001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.009000s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE ( id = 22 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `cms_article_cate` WHERE (  pid = 22 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.007000s ]
+NOTIC: [8] Undefined variable: limit D:\WWW\jieqiang_lybtest\index\Lib\Action\IndexAction.class.php 第 140 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_article` WHERE (  1=1 AND status=1  AND cate_id in (23,24,25,26,44 ,22) AND status=1  ) ORDER BY  add_time DESC  LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  1=1 AND status=1  AND cate_id in (23,24,25,26,44 ,22) AND status=1  ) ORDER BY  add_time DESC  LIMIT 0,5   [ RunTime:0.001000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.003000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:14:04+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.008000s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.014001s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.005001s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:15:16+08:00 ] 127.0.0.1 /jieqiang_lybtest/index.php/Index/cate/cid/11
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE ( id = 11 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `cms_article_cate` WHERE (  pid = 11 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: limit D:\WWW\jieqiang_lybtest\index\Lib\Action\IndexAction.class.php 第 140 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_article` WHERE (  1=1 AND status=1  AND cate_id in (1,5,30,15,28 ,11) AND status=1  ) ORDER BY  add_time DESC  LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  1=1 AND status=1  AND cate_id in (1,5,30,15,28 ,11) AND status=1  ) ORDER BY  add_time DESC  LIMIT 0,5   [ RunTime:0.001001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:15:46+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.011000s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T12:18:22+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.014001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.012000s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.015000s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.006000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.004001s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.005000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.003000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.003001s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.051003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-12-24T13:09:57+08:00 ] 127.0.0.1 /jieqiang_lybtest/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: user_info D:\WWW\jieqiang_lybtest\index\Lib\Action\PublicAction.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `cms_article_cate` [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `cms_article` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cms_article_cate` WHERE (  status=1  ) ORDER BY sort_order ASC  [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_flink` [ RunTime:0.015001s ]
+SQL: SELECT * FROM `cms_flink` WHERE (  status=1  )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_ad` [ RunTime:0.022001s ]
+SQL: SELECT * FROM `cms_ad` ORDER BY ordid ASC  [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 9 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.016001s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 28 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: where D:\WWW\jieqiang_lybtest\index\Common\common.php 第 45 行.
+SQL: SELECT * FROM `cms_article` WHERE (  cate_id = 15 AND status=1  ) ORDER BY  add_time DESC  LIMIT 6   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  img!='' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.003001s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_best='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_hot='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `cms_article` WHERE (  is_index='1' AND  status=1  ) ORDER BY  add_time DESC  LIMIT 5   [ RunTime:0.004000s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.071004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071004s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+

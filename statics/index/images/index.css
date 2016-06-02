@@ -1,0 +1,143 @@
+#left_bar { /*main左栏*/
+float:left;
+width:694px;
+margin:0 0 0 1px;
+}
+
+#right_bar { /*main右栏*/
+width:294px;
+float:right;
+}
+
+#big_title {
+width:694px;
+height:36px;
+background:#E7E7E7 url(index_main_top_bg.gif) repeat-x;
+}
+
+#big_title h1 {
+font:1.6em/34px "微软雅黑","黑体",sans-serif;
+margin:0 0 0 10px;
+_display:inline;/*ie6双倍margin bug hack*/
+color:#151515;
+}
+
+.circle_nav {
+float:left;
+margin:5px 0 0 10px;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+#four_service {
+width:692px;
+height:416px;
+padding-top:10px;
+border:1px solid #D9D9D9;
+-moz-border-radius:0 0 5px 5px;
+-webkit-border-radius:0 0 5px 5px;
+}
+
+.every_service {
+float:left;
+width:326px;
+height:198px;
+margin:0px 10px 10px 10px;
+background:#EEE url(core_service_bg.gif);
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.every_service h2 {
+margin:11px 0 0 12px;
+font:1.6em/16px "微软雅黑","黑体",sans-serif;
+color:#A0A0A0;
+}
+
+.every_service img {
+float:left;
+width:180px;
+height:145px;
+margin:12px 0 0 14px;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.every_service ul {
+float:right;
+width:120px;
+margin:10px 0;
+}
+
+.every_service li {
+padding-left:10px;
+height:12px;
+margin-bottom:12px;
+font:1.2em/1.2em "宋体",serif;
+color:#858585;
+background:url(service_intro_bg.gif) no-repeat;
+}
+
+.service_intro a {
+color:#858585;
+}
+
+.service_intro a:hover {
+text-decoration:underline;
+}
+
+.sub_title {
+background:#E7E7E7 url(sub_bar_title_bg.gif);
+width:294px;
+height:36px;
+}
+
+.sub_title h2 {
+float:left;
+margin:0 0 0 40px;
+font:14px/36px "微软雅黑","黑体",sans-serif;
+color:#151515;
+_display:inline;/*ie6双倍margin bug hack*/
+}
+
+.newlist {
+margin:1px 0 10px 0;
+padding:5px 0 6px 0;
+background:#EEE url(left_nav_bottom_bg.gif) no-repeat bottom;
+}
+.newlist li{
+width:294px;
+height:29px;
+background:#EEE;
+}
+
+.newlist li a {
+display:block;
+width:266px;
+height:29px;
+padding:0 0 0 28px;
+background:#EEE url(article_head.gif) no-repeat;
+font:12px/29px "宋体",serif;
+color:#808080;
+}
+
+.newlist li a:hover {
+background:#EEE url(article_on_bg.gif) no-repeat;
+color:#FF832C;
+}
+
+#contact_info {
+margin:1px 0 0 0;
+font:1.2em/1.8em "宋体",serif;
+color:#808080;
+padding:20px 0 59px 20px;
+_padding:20px 0 70px 20px; /*兼容IE6 原一个背景的高度,原因不明*/
+background:#EEE url(left_nav_bottom_bg.gif) no-repeat bottom;
+}
+
+#contact_info dt {
+clear:left;
+float:left;
+width:30px;
+}
+
+#nospam {
+display:inline;
+}
